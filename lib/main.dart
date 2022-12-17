@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           itemBuilder: (_, index) {
             return Container(
               color: randomColor(),
-              width: 500,
+              width: 400,
               height: 500,
             );
           },
