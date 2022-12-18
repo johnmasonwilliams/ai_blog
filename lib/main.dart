@@ -27,10 +27,8 @@ class MyApp extends StatelessWidget {
           },
         ),
         floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            print('hello!');
-          },
-          child: Icon(Icons.add),
+          onPressed: () {  },
+          child: const Icon(Icons.add),
         ),
         bottomNavigationBar: BottomNavigationBar(
           items: const [
